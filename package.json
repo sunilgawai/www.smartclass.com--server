@@ -1,0 +1,42 @@
+{
+  "name": "www.smartclass.com--server",
+  "version": "1.0.0",
+  "description": "This is server for smartclassroom project.",
+  "main": "src/Server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/Server.ts",
+    "dev": "nodemon src/Server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilgawai/www.smartclass.com--server.git"
+  },
+  "keywords": [
+    "Google",
+    "Classroom",
+    "clone"
+  ],
+  "author": "Sunil Gawai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunilgawai/www.smartclass.com--server/issues"
+  },
+  "homepage": "https://github.com/sunilgawai/www.smartclass.com--server#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.4",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
